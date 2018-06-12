@@ -151,7 +151,7 @@ export class DetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.data.getPost(this.post$).subscribe(
+    this.data.getDetails(this.post$).subscribe(
       data => this.post$ = data 
     );
   }
@@ -168,7 +168,7 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 
 W pliku **details.component.html** powinno się znajdować
 
-```html
+```
 <h5>{{ post$.title }}</h5>
 <p>{{ post$.body }}</p>
 <ul>
@@ -176,7 +176,7 @@ W pliku **details.component.html** powinno się znajdować
   <li><strong>User Id:</strong> {{ post$.userId }}</li>
 </ul>
 ```
-Poniżej screen z poprawnymi dyrektywami komponentu:
+Jeżeli się nie wyświetlają porawnie dyrektywy - screen: 
 [img-html](images/html.png)
 
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: **routerLink="/post-details/{{post.id}}"**
