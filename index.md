@@ -1,6 +1,6 @@
 ## Prezentacja.
 
-Prezentacja dotycząca Angular 5 jest dostępna tutaj:
+Prezentacja dotycząca Angular 5 jest dostępna [tutaj](https://docs.google.com/presentation/d/1tDjAQD24NfvkbNOklPTW4DhHPA73MrJtGaDd9DHsLjY/edit?usp=sharing)
 
 # Zadanie
 
