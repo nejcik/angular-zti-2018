@@ -168,8 +168,11 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 
 W pliku **details.component.html** powinno się znajdować
 
+<?PHP
+call_some_php_function(1,2,"a","b"); /* This is may return nothing, a text string, or actual HTML markup code */
+?>
 ```
-<h5>\{\{ post$.title \}\}</h5>
+<h5><?typescript {{ post$.title }}?></h5>
 <p>\{\{ post$.body \}\}</p>
 <ul>
   <li><strong>Post id:</strong> \{\{ post$.id \}\}</li>
@@ -181,7 +184,7 @@ Jeżeli się nie wyświetlają porawnie dyrektywy - screen:
 
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: 
 ```
-routerLink="/post-details/\{\{post.id\}\}"
+routerLink="/post-details/<?typescript {{post.id}}?>"
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
