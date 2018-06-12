@@ -173,7 +173,7 @@ call_some_php_function(1,2,"a","b"); /* This is may return nothing, a text strin
 ?>
 ```
 <h5>"{{ post$.title }\}"</h5>
-<p>/{/{ post$.body /}/}</p>
+<p>```typescript {{ post$.body /}/} ```</p>
 <ul>
   <li><strong>Post id:</strong> /{/{ post$.id /}/}</li>
   <li><strong>User Id:</strong> \{\{ post$.userId \}\}</li>
@@ -184,7 +184,7 @@ Jeżeli się nie wyświetlają porawnie dyrektywy - screen:
 
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: 
 ```
-routerLink="/post-details/{{post.id}}?>"
+routerLink="/post-details/\{\{post.id\}\}"
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
