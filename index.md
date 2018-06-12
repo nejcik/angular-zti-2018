@@ -166,6 +166,8 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 "app/details/details.component.scss"
 ```
 
+W pliku **details.component.html** powinno się znajdować
+
 ```html
 <h5>{{ post$.title }}</h5>
 <p>{{ post$.body }}</p>
@@ -174,6 +176,9 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
   <li><strong>User Id:</strong> {{ post$.userId }}</li>
 </ul>
 ```
+Poniżej screen z poprawnymi dyrektywami komponentu:
+[img-html](images/html.png)
+
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link (_href="#"_) na następujący: _routerLink="/post-details/{{post.id}}"_
 
 
