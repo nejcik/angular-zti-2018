@@ -103,7 +103,7 @@ import { DetailsComponent } from './details/details.component';
   },
   // DODAJ TO CO JEST PONIŻEJ:
   {
-    path: 'details/:id',
+    path: 'post-details/:id',
     component: DetailsComponent
   }
 ];
@@ -168,7 +168,7 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 
 W pliku **details.component.html** powinno się znajdować
 
-```
+```typescript
 <h5>{{ post$.title }}</h5>
 <p>{{ post$.body }}</p>
 <ul>
@@ -179,8 +179,10 @@ W pliku **details.component.html** powinno się znajdować
 Jeżeli się nie wyświetlają porawnie dyrektywy - screen: 
 [img-html](images/html.png)
 
-Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: **routerLink="/post-details/{{post.id}}"**
-
+Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: 
+```typescript
+routerLink="/post-details/{{post.id}}"
+```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 [1] Dla ciekawskich, wszystko (instalacja + quickstart) jest pięknie wyjaśnione na stronie [Angular-a](https://angular.io)
