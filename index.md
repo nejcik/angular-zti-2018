@@ -169,19 +169,19 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 W pliku **details.component.html** powinno się znajdować
 
 ```typescript
-<h5>{{ post$.title }}</h5>
-<p>{{ post$.body }}</p>
+<h5>\{\{ post$.title \}\}</h5>
+<p>\{\{ post$.body \}\}</p>
 <ul>
-  <li><strong>Post id:</strong> {{ post$.id }}</li>
-  <li><strong>User Id:</strong> {{ post$.userId }}</li>
+  <li><strong>Post id:</strong> \{\{ post$.id \}\}</li>
+  <li><strong>User Id:</strong> \{\{ post$.userId \}\}</li>
 </ul>
 ```
 Jeżeli się nie wyświetlają porawnie dyrektywy - screen: 
 [img-html](images/html.png)
 
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: 
-```typescript
-routerLink="/post-details/{{post.id}}"
+```
+routerLink="/post-details/\{\{post.id\}\}"
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
