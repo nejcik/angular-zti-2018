@@ -18,7 +18,9 @@ Pobierz plik zwierający bazową aplikację: [angular-app-zti-zip](https://drive
 
 ### b. Przygotowanie aplikacji:
 
-Rozpakuj plik, a następnie wejdź w edytor online [stacklitz](https://stackblitz.com/edit/angular-playground)
+Rozpakuj plik, a następnie wejdź w edytor online [stacklitz](https://stackblitz.com/edit/angular-playground).
+
+
 W edytorze są przygotowane poszczególne foldery i bazowe komponenty, jednak zastąp je tymi, które znajdują się w rozpakowanym przez Ciebie folderze, w katalogu **/src/**
 - usuń wszystkie foldery i pliki **POMIJAJĄC: .angular-cli.json, main.ts, polyfills.ts** 
 - zaznacz całą zarawtość folderu  **/src/** i przeciągnij
