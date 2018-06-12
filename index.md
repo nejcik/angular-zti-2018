@@ -172,7 +172,7 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
   <li><strong>User Id:</strong> {{ post$.userId }}</li>
 </ul>
 ```
-Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link (_href="#"_) na następujący: **routerLink="/post-details/{{post.id}}"**
+Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link (_href="#"_) na następujący: _routerLink="/post-details/{{post.id}}"_
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
