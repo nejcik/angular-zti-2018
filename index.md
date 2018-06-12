@@ -179,7 +179,7 @@ W pliku **details.component.html** powinno się znajdować
 Poniżej screen z poprawnymi dyrektywami komponentu:
 [img-html](images/html.png)
 
-Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link (_href="#"_) na następujący: _routerLink="/post-details/{{post.id}}"_
+Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: **routerLink="/post-details/{{post.id}}"**
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
