@@ -26,7 +26,11 @@ W edytorze są przygotowane poszczególne foldery i bazowe komponenty, jednak za
 zawartość katalogów powinna wyglądać następująco:
 
 ![img-katalog](/images/katalogi.png)
+
+
 aplikacja wygląda następująco:
+
+
 ![img-apka](/images/apka.png)
 
 
