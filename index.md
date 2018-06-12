@@ -168,7 +168,7 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 
 W pliku **details.component.html** powinno się znajdować
 
-```typescript
+```
 <h5>\{\{ post$.title \}\}</h5>
 <p>\{\{ post$.body \}\}</p>
 <ul>
