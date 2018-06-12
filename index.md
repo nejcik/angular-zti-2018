@@ -14,7 +14,7 @@ Do zabawy wykorzytamy prosty edytor online [stacklitz](https://stackblitz.com/ed
 
 ### a. Pobieranie:
 
-Pobierz plik zwierający bazową aplikację: [apka-zti-zip](https://drive.google.com/open?id=1DjPmLxAjRnreoLplSOVjamRISveB_VyB)
+Pobierz plik zwierający bazową aplikację: [angular-app-zti-zip](https://drive.google.com/open?id=1DjPmLxAjRnreoLplSOVjamRISveB_VyB)
 
 ### b. Przygotowanie aplikacji:
 
