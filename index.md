@@ -22,7 +22,7 @@ Rozpakuj plik, a następnie wejdź w edytor online [stacklitz](https://stackblit
 
 
 W edytorze są przygotowane poszczególne foldery i bazowe komponenty, jednak zastąp je tymi, które znajdują się w rozpakowanym przez Ciebie folderze, w katalogu **/src/**
-- usuń wszystkie foldery i pliki **POMIJAJĄC: .angular-cli.json, main.ts, polyfills.ts** 
+- usuń wszystkie foldery i pliki **POMIJAJĄC: .angular-cli.json** 
 - zaznacz całą zarawtość folderu  **/src/** i przeciągnij
 
 zawartość katalogów powinna wyglądać następująco:
