@@ -81,7 +81,7 @@ I dodaj do listy deklaracji:
 ...
 ```
 
-#### C. Dodanie ścieśki w Routes:
+#### C. Dodanie ścieżki w Routes:
 
 W pliku **app-routing.module.ts** zaimportuj nowy komponent oraz dodaj ścieżkę _"details/:id"_ do listy:
 
