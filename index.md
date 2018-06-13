@@ -168,15 +168,12 @@ do pliku  **.angular-cli.json** dodaj następującą linię:
 
 W pliku **details.component.html** powinno się znajdować
 
-<?PHP
-call_some_php_function(1,2,"a","b"); /* This is may return nothing, a text string, or actual HTML markup code */
-?>
 ```
-<h5>{{ post$.title }<!---->}</h5>
-<p>{{ post$.body }<!---->}</p>
+<h5>{% raw %} {{ post$.title }} {% endraw %}</h5>
+<p>{% raw %} {{ post$.body }} {% endraw %}</p>
 <ul>
-  <li><strong>Post id:</strong> {{ post$.id }<!---->}</li>
-  <li><strong>User Id:</strong> {{ post$.userId }<!---->}</li>
+  <li><strong>Post id:</strong>{% raw %} {{ post$.id }} {% endraw %}</li>
+  <li><strong>User Id:</strong>{% raw %} {{ post$.userId }} {% endraw %}</li>
 </ul>
 ```
 Jeżeli się nie wyświetlają porawnie dyrektywy - screen: 
@@ -184,7 +181,7 @@ Jeżeli się nie wyświetlają porawnie dyrektywy - screen:
 
 Aby przejść pojedynczego postu, trzeba zmienić w pliku **posts.component.html** bazowy link **href="#"** na następujący: 
 ```
-routerLink="/post-details/{{ post.id }<!---->}"
+routerLink="/post-details/{% raw %}{{ post.id }} {% endraw %}"
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
